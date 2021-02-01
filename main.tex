@@ -5,7 +5,7 @@
 % Licencia:
 % CC BY-NC-SA 4.0 https:(//creativecommons.org/licenses/by-nc-sa/4.0/)
 %
-% Este documento usa la plantilla The Legrand Orange Book, version 2.4 (26/09/2018)
+% Este documento usa la plantilla 'The Legrand Orange Book', version 2.4 (26/09/2018)
 % La plantilla fue descargada de http://www.LaTeXTemplates.com
 %
 % Autor original de la plantilla:
@@ -16,9 +16,9 @@
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 %
-% Important note:
-% Chapter heading images should have a 2:1 width:height ratio,
-% e.g. 920px width and 460px height.
+% Nota importante:
+% Las imágenes de cabecera de los capítulos deben tener una relación de aspecto de 2:1 (anchura:altura)
+% ejemplo: 920px x 460px (anchura x altura).
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -44,321 +44,84 @@
 \node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background.pdf}};
 \draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Programación en FP (DAW y DAM)\\[15pt] % Título del libro
 {\Large Guía de supervivencia}\\[20pt] % Subtítulo
-{\huge Dr. Luis del Moral Martínez}}}; % Nombre del autor
+{\huge Luis del Moral Martínez}}}; % Nombre del autor
 \end{tikzpicture}
 \vfill
 \endgroup
 
 %----------------------------------------------------------------------------------------
-%	COPYRIGHT PAGE
+%	PÁGINA DE COPYRIGHT Y LICENCIAMIENTO
 %----------------------------------------------------------------------------------------
 
 \newpage
 ~\vfill
 \thispagestyle{empty}
 
-\noindent Copyright \copyright\ 2021 Luis del Moral Martínez\\ % Copyright notice
+\noindent \includegraphics[scale=0.08]{green-planet.png}
+
+\noindent \newline Contribuye al ahorro de papel. No imprimas el libro si no es necesario.
+\newline
+
+\noindent Copyright \copyright\ 2021 Luis del Moral Martínez
+\newline
 
 \noindent Licenciado según la licencia Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0). Puede obtener una copia de la licencia en:
 \url{https://creativecommons.org/licenses/by-nc-sa/4.0/}.
-\linebreak
-\linebreak
-\textit{Febrero de 2021} % Printing/edition date
+\newline
+
+\noindent \textit{Febrero de 2021}
 
 %----------------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
+%	TABLA DE CONTENIDOS
 %----------------------------------------------------------------------------------------
 
-%\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+\chapterimage{chapter_head_1.pdf} % Imagen de cabecera de la tabla de contenidos
 
-\chapterimage{chapter_head_1.pdf} % Table of contents heading image
+\pagestyle{empty} % Desactiva las cabeceras y los pies de página para todas páginas subsiguientes
 
-\pagestyle{empty} % Disable headers and footers for the following pages
+\tableofcontents % Imprime la tabla de contenidos
 
-\tableofcontents % Print the table of contents itself
+\cleardoublepage % Fuerza que el primer capítulo empiece en una página impar para que salga en la parte derecha del libro
 
-\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right side of the book
-
-\pagestyle{fancy} % Enable headers and footers again
+\pagestyle{fancy} % Habilita de nuevo los encabezados y pies de página
 
 %----------------------------------------------------------------------------------------
-%	PART
+%	CONTENIDO DEL LIBRO (PARTES Y CAPÍTULOS)
 %----------------------------------------------------------------------------------------
 
-\part{Part One}
+%----------------------------------------------------------------------------------------
+%	PARTE I
+%----------------------------------------------------------------------------------------
+\input{parte1.tex} % Se incluye la parte I
 
 %----------------------------------------------------------------------------------------
-%	CHAPTER 1
+%	BIBLIOGRAFÍA
 %----------------------------------------------------------------------------------------
 
-\chapterimage{chapter_head_2.pdf} % Chapter heading image
-
-\chapter{Text Chapter}
-
-\section{Paragraphs of Text}\index{Paragraphs of Text}
-
-\lipsum[1-7] % Dummy text
+\chapter*{Bibliografía}
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliografía}} % Se añade el encabezado de la bibliografía en el índice de contenidos
 
 %------------------------------------------------
 
-\section{Citation}\index{Citation}
-
-This statement requires citation \cite{article_key}; this one is more specific \cite[162]{book_key}.
-
-%------------------------------------------------
-
-\section{Lists}\index{Lists}
-
-Lists are useful to present information in a concise and/or ordered way\footnote{Footnote example...}.
-
-\subsection{Numbered List}\index{Lists!Numbered List}
-
-\begin{enumerate}
-\item The first item
-\item The second item
-\item The third item
-\end{enumerate}
-
-\subsection{Bullet Points}\index{Lists!Bullet Points}
-
-\begin{itemize}
-\item The first item
-\item The second item
-\item The third item
-\end{itemize}
-
-\subsection{Descriptions and Definitions}\index{Lists!Descriptions and Definitions}
-
-\begin{description}
-\item[Name] Description
-\item[Word] Definition
-\item[Comment] Elaboration
-\end{description}
-
-%----------------------------------------------------------------------------------------
-%	CHAPTER 2
-%----------------------------------------------------------------------------------------
-
-\chapter{In-text Elements}
-
-\section{Theorems}\index{Theorems}
-
-This is an example of theorems.
-
-\subsection{Several equations}\index{Theorems!Several Equations}
-This is a theorem consisting of several equations.
-
-\begin{theorem}[Name of the theorem]
-In $E=\mathbb{R}^n$ all norms are equivalent. It has the properties:
-\begin{align}
-& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
-&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
-\end{align}
-\end{theorem}
-
-\subsection{Single Line}\index{Theorems!Single Line}
-This is a theorem consisting of just one line.
-
-\begin{theorem}
-A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$. 
-\end{theorem}
-
-%------------------------------------------------
-
-\section{Definitions}\index{Definitions}
-
-This is an example of a definition. A definition could be mathematical or it could define a concept.
-
-\begin{definition}[Definition name]
-Given a vector space $E$, a norm on $E$ is an application, denoted $||\cdot||$, $E$ in $\mathbb{R}^+=[0,+\infty[$ such that:
-\begin{align}
-& ||\mathbf{x}||=0\ \Rightarrow\ \mathbf{x}=\mathbf{0}\\
-& ||\lambda \mathbf{x}||=|\lambda|\cdot ||\mathbf{x}||\\
-& ||\mathbf{x}+\mathbf{y}||\leq ||\mathbf{x}||+||\mathbf{y}||
-\end{align}
-\end{definition}
-
-%------------------------------------------------
-
-\section{Notations}\index{Notations}
-
-\begin{notation}
-Given an open subset $G$ of $\mathbb{R}^n$, the set of functions $\varphi$ are:
-\begin{enumerate}
-\item Bounded support $G$;
-\item Infinitely differentiable;
-\end{enumerate}
-a vector space is denoted by $\mathcal{D}(G)$. 
-\end{notation}
-
-%------------------------------------------------
-
-\section{Remarks}\index{Remarks}
-
-This is an example of a remark.
-
-\begin{remark}
-The concepts presented here are now in conventional employment in mathematics. Vector spaces are taken over the field $\mathbb{K}=\mathbb{R}$, however, established properties are easily extended to $\mathbb{K}=\mathbb{C}$.
-\end{remark}
-
-%------------------------------------------------
-
-\section{Corollaries}\index{Corollaries}
-
-This is an example of a corollary.
-
-\begin{corollary}[Corollary name]
-The concepts presented here are now in conventional employment in mathematics. Vector spaces are taken over the field $\mathbb{K}=\mathbb{R}$, however, established properties are easily extended to $\mathbb{K}=\mathbb{C}$.
-\end{corollary}
-
-%------------------------------------------------
-
-\section{Propositions}\index{Propositions}
-
-This is an example of propositions.
-
-\subsection{Several equations}\index{Propositions!Several Equations}
-
-\begin{proposition}[Proposition name]
-It has the properties:
-\begin{align}
-& \big| ||\mathbf{x}|| - ||\mathbf{y}|| \big|\leq || \mathbf{x}- \mathbf{y}||\\
-&  ||\sum_{i=1}^n\mathbf{x}_i||\leq \sum_{i=1}^n||\mathbf{x}_i||\quad\text{where $n$ is a finite integer}
-\end{align}
-\end{proposition}
-
-\subsection{Single Line}\index{Propositions!Single Line}
-
-\begin{proposition} 
-Let $f,g\in L^2(G)$; if $\forall \varphi\in\mathcal{D}(G)$, $(f,\varphi)_0=(g,\varphi)_0$ then $f = g$. 
-\end{proposition}
-
-%------------------------------------------------
-
-\section{Examples}\index{Examples}
-
-This is an example of examples.
-
-\subsection{Equation and Text}\index{Examples!Equation and Text}
-
-\begin{example}
-Let $G=\{x\in\mathbb{R}^2:|x|<3\}$ and denoted by: $x^0=(1,1)$; consider the function:
-\begin{equation}
-f(x)=\left\{\begin{aligned} & \mathrm{e}^{|x|} & & \text{si $|x-x^0|\leq 1/2$}\\
-& 0 & & \text{si $|x-x^0|> 1/2$}\end{aligned}\right.
-\end{equation}
-The function $f$ has bounded support, we can take $A=\{x\in\mathbb{R}^2:|x-x^0|\leq 1/2+\epsilon\}$ for all $\epsilon\in\intoo{0}{5/2-\sqrt{2}}$.
-\end{example}
-
-\subsection{Paragraph of Text}\index{Examples!Paragraph of Text}
-
-\begin{example}[Example name]
-\lipsum[2]
-\end{example}
-
-%------------------------------------------------
-
-\section{Exercises}\index{Exercises}
-
-This is an example of an exercise.
-
-\begin{exercise}
-This is a good place to ask a question to test learning progress or further cement ideas into students' minds.
-\end{exercise}
-
-%------------------------------------------------
-
-\section{Problems}\index{Problems}
-
-\begin{problem}
-What is the average airspeed velocity of an unladen swallow?
-\end{problem}
-
-%------------------------------------------------
-
-\section{Vocabulary}\index{Vocabulary}
-
-Define a word to improve a students' vocabulary.
-
-\begin{vocabulary}[Word]
-Definition of word.
-\end{vocabulary}
-
-%----------------------------------------------------------------------------------------
-%	PART
-%----------------------------------------------------------------------------------------
-
-\part{Part Two}
-
-%----------------------------------------------------------------------------------------
-%	CHAPTER 3
-%----------------------------------------------------------------------------------------
-
-\chapterimage{chapter_head_1.pdf} % Chapter heading image
-
-\chapter{Presenting Information}
-
-\section{Table}\index{Table}
-
-\begin{table}[h]
-\centering
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\label{tab:example} % Unique label used for referencing the table in-text
-%\addcontentsline{toc}{table}{Table \ref{tab:example}} % Uncomment to add the table to the table of contents
-\end{table}
-
-Referencing Table \ref{tab:example} in-text automatically.
-
-%------------------------------------------------
-
-\section{Figure}\index{Figure}
-
-\begin{figure}[h]
-\centering\includegraphics[scale=0.5]{placeholder.jpg}
-\caption{Figure caption}
-\label{fig:placeholder} % Unique label used for referencing the figure in-text
-%\addcontentsline{toc}{figure}{Figure \ref{fig:placeholder}} % Uncomment to add the figure to the table of contents
-\end{figure}
-
-Referencing Figure \ref{fig:placeholder} in-text automatically.
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-\chapter*{Bibliography}
-\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}} % Add a Bibliography heading to the table of contents
-
-%------------------------------------------------
-
-\section*{Articles}
+\section*{Artículos}
 \addcontentsline{toc}{section}{Articles}
 \printbibliography[heading=bibempty,type=article]
 
 %------------------------------------------------
 
-\section*{Books}
+\section*{Libros}
 \addcontentsline{toc}{section}{Books}
 \printbibliography[heading=bibempty,type=book]
 
 %----------------------------------------------------------------------------------------
-%	INDEX
+%	ÍNDICE
 %----------------------------------------------------------------------------------------
 
-\cleardoublepage % Make sure the index starts on an odd (right side) page
+\cleardoublepage % Nos aseguramos que el índice empiece en una página impar (lado derecho)
 \phantomsection
-\setlength{\columnsep}{0.75cm} % Space between the 2 columns of the index
-\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}} % Add an Index heading to the table of contents
-\printindex % Output the index
+\setlength{\columnsep}{0.75cm} % Fija el espaciado entre las dos columnas del índice
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Índice de términos}} % Añade el encabezado del índice en el índice de contenidos
+\printindex % Imprime el índice
 
 %----------------------------------------------------------------------------------------
 

@@ -4,11 +4,11 @@
         Agradecimientos
         ...
     
-        Parte I Presentación e introducción a la programación
-            1. Presentación y estructura del libro
+        Parte I Introducción a la programación
+            1. Presentación
             2. ¿Dónde me he metido?
-            3. Introducción a la programación
-            4. Algoritmos por todas partes
+            3. ¿Cómo funciona un ordenador?
+            4. ¿Qué es un algoritmo?
         
         Parte II Programación en C/C++
         

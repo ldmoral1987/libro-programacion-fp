@@ -18,23 +18,41 @@ src_extensions=.tex .ltx .latex .dtx .ins
 MakeIndex=
 QuickBuild=
 
-[item:StyleInd.ist]
+[item:LICENSE.md]
+archive=true
+encoding=UTF-8
+highlight=Markdown
+mode=Markdown
+
+[item:README.md]
 archive=true
 encoding=
 highlight=
 mode=
 
+[item:StyleInd.ist]
+archive=true
+encoding=UTF-8
+highlight=None
+mode=Normal
+
 [item:bibliography.bib]
 archive=true
-encoding=
-highlight=
-mode=
+encoding=UTF-8
+highlight=BibTeX
+mode=BibTeX
+
+[item:contenido.txt]
+archive=true
+encoding=UTF-8
+highlight=None
+mode=Normal
 
 [item:librofp.kilepr]
 archive=true
 encoding=
-highlight=
-mode=
+highlight=None
+mode=Normal
 
 [item:main.bbl]
 archive=true
@@ -44,15 +62,15 @@ mode=Normal
 
 [item:main.idx]
 archive=true
-encoding=
-highlight=
-mode=
+encoding=UTF-8
+highlight=None
+mode=Normal
 
 [item:main.ind]
 archive=true
-encoding=
-highlight=
-mode=
+encoding=UTF-8
+highlight=None
+mode=Normal
 
 [item:main.tex]
 archive=true
