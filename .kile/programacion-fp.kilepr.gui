@@ -169,16 +169,16 @@ open=true
 order=0
 
 [item:capitulo2.tex]
-open=false
-order=-1
+open=true
+order=5
 
 [item:capitulo3.tex]
-open=false
-order=-1
+open=true
+order=6
 
 [item:capitulo4.tex]
-open=false
-order=-1
+open=true
+order=7
 
 [item:contenido.txt]
 open=false
@@ -201,12 +201,12 @@ open=false
 order=-1
 
 [item:main.tex]
-open=false
-order=0
+open=true
+order=3
 
 [item:parte1.tex]
-open=false
-order=-1
+open=true
+order=4
 
 [item:structure.tex]
 open=true
@@ -241,12 +241,12 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:capitulo1.tex]
-CursorColumn=17
-CursorLine=71
+CursorColumn=118
+CursorLine=144
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,64,16,[,64,0,],64,37
+ViMarks=.,104,127,[,104,121,],104,127
 
 [view-settings,view=0,item:capitulo2.tex]
 CursorColumn=12
@@ -258,11 +258,11 @@ ViMarks=.,1,11,[,1,11,],1,11
 
 [view-settings,view=0,item:capitulo3.tex]
 CursorColumn=0
-CursorLine=3
+CursorLine=6
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,1,11,[,1,11,],1,11
+ViMarks=.,5,12,[,5,11,],5,12
 
 [view-settings,view=0,item:capitulo4.tex]
 CursorColumn=31
@@ -313,8 +313,8 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=27
-CursorLine=28
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -329,16 +329,16 @@ TextFolding=[]
 ViMarks=.,0,35,[,0,6,],0,35
 
 [view-settings,view=0,item:structure.tex]
-CursorColumn=23
-CursorLine=351
+CursorColumn=10
+CursorLine=84
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,351,0,[,351,0,],351,0
+ViMarks=.,352,73,[,352,73,],352,73
 
 [view-settings,view=0,item:temporal.tex]
-CursorColumn=21
-CursorLine=36
+CursorColumn=32
+CursorLine=40
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
