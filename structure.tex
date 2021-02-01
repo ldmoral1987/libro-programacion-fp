@@ -272,7 +272,8 @@
 \theoremstyle{blacknumbox}
 \newtheorem{vocabulary}{Vocabulary}[chapter]
 \newtheorem{definitionT}{Definition}[section]
-\newtheorem{corollaryT}[dummy]{Consejo}
+%\newtheorem{corollaryT}[dummy]{Consejo}
+\newtheorem*{corollaryT*}{Consejo} % Se quita el contador de los consejos
 \theoremstyle{ocrenum}
 \newtheorem{proposition}[dummy]{Proposition}
 
@@ -349,7 +350,7 @@ innerbottommargin=5pt]{cBox}
 \newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}				  
 \newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}	
 \newenvironment{ejemplo}{\begin{eBox}\begin{exampleT}}{\hfill{\color{ocre}\tiny\ensuremath{\blacksquare}}\end{exampleT}\end{eBox}}				  
-\newenvironment{consejo}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}
+\newenvironment{consejo}{\begin{cBox}\begin{corollaryT*}}{\end{corollaryT*}\end{cBox}}
 
 %----------------------------------------------------------------------------------------
 %	REMARK ENVIRONMENT

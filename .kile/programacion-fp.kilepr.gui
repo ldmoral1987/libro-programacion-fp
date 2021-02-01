@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=main.tex
+lastDocument=capitulo1.tex
 
 [document-settings,item:LICENSE.md]
 Bookmarks=
@@ -29,6 +29,42 @@ Highlighting=BibTeX
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=BibTeX
+Mode Set By User=false
+
+[document-settings,item:capitulo1.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:capitulo2.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:capitulo3.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:capitulo4.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
 Mode Set By User=false
 
 [document-settings,item:contenido.txt]
@@ -85,7 +121,25 @@ Indentation Mode=normal
 Mode=LaTeX
 Mode Set By User=false
 
+[document-settings,item:parte1.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
 [document-settings,item:structure.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:temporal.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -110,8 +164,24 @@ order=-1
 open=false
 order=-1
 
-[item:contenido.txt]
+[item:capitulo1.tex]
 open=true
+order=0
+
+[item:capitulo2.tex]
+open=false
+order=-1
+
+[item:capitulo3.tex]
+open=false
+order=-1
+
+[item:capitulo4.tex]
+open=false
+order=-1
+
+[item:contenido.txt]
+open=false
 order=2
 
 [item:librofp.kilepr]
@@ -131,12 +201,20 @@ open=false
 order=-1
 
 [item:main.tex]
-open=true
+open=false
 order=0
+
+[item:parte1.tex]
+open=false
+order=-1
 
 [item:structure.tex]
 open=true
 order=1
+
+[item:temporal.tex]
+open=true
+order=2
 
 [view-settings,view=0,item:LICENSE.md]
 CursorColumn=64
@@ -155,20 +233,52 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:bibliography.bib]
-CursorColumn=15
-CursorLine=8
+CursorColumn=18
+CursorLine=14
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=
 
-[view-settings,view=0,item:contenido.txt]
-CursorColumn=58
-CursorLine=14
+[view-settings,view=0,item:capitulo1.tex]
+CursorColumn=17
+CursorLine=71
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,16,29,[,16,16,],16,29
+ViMarks=.,64,16,[,64,0,],64,37
+
+[view-settings,view=0,item:capitulo2.tex]
+CursorColumn=12
+CursorLine=1
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,1,11,[,1,11,],1,11
+
+[view-settings,view=0,item:capitulo3.tex]
+CursorColumn=0
+CursorLine=3
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,1,11,[,1,11,],1,11
+
+[view-settings,view=0,item:capitulo4.tex]
+CursorColumn=31
+CursorLine=5
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,5,29,[,5,14,],5,29
+
+[view-settings,view=0,item:contenido.txt]
+CursorColumn=36
+CursorLine=10
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,10,35,[,10,15,],10,35
 
 [view-settings,view=0,item:librofp.kilepr]
 CursorColumn=0
@@ -203,17 +313,33 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=0
-CursorLine=90
+CursorColumn=27
+CursorLine=28
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,88,11,[,88,2,],88,11
+ViMarks=.,28,0,[,28,0,],28,0
+
+[view-settings,view=0,item:parte1.tex]
+CursorColumn=0
+CursorLine=5
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,0,35,[,0,6,],0,35
 
 [view-settings,view=0,item:structure.tex]
-CursorColumn=41
-CursorLine=18
+CursorColumn=23
+CursorLine=351
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,18,41,[,18,41,],18,41
+ViMarks=.,351,0,[,351,0,],351,0
+
+[view-settings,view=0,item:temporal.tex]
+CursorColumn=21
+CursorLine=36
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,250,0,[,0,0,],250,62
