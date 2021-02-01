@@ -1,3 +1,22 @@
     Contenido del libro
-    
         
+        Índices
+        Agradecimientos
+        ...
+    
+        Parte I Presentación e introducción a la programación
+            1. Presentación y estructura del libro
+            2. ¿Dónde me he metido?
+            3. Introducción a la programación
+            4. Algoritmos por todas partes
+        
+        Parte II Programación en C/C++
+        
+        Parte III Programación orientada a objetos en Java
+        
+        Parte IV ¿Y ahora qué?
+        
+        Lecturas recomendadas
+        Bibliografía
+        Índice analítico
+        ...
