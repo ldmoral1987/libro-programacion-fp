@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
+\babel@toc {spanish}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\@mypartnumtocformat {I}{Part One}}{5}{part.1}%
 \defcounter {refsection}{0}\relax 
@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.7}Examples}{10}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Equation and Text}{10}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.1}Equation and Text}{11}{subsection.2.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Paragraph of Text}{11}{subsection.2.7.2}%
 \defcounter {refsection}{0}\relax 
