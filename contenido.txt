@@ -14,7 +14,7 @@
         
         Parte III Programación orientada a objetos en Java
         
-        Parte IV ¿Y ahora qué?
+        Parte IV ¿Y ahora qué? (esta parte será opcional, para las versiones 1.0 en adelante...)
         
         Lecturas recomendadas
         Bibliografía

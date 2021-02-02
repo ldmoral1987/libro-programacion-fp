@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=capitulo1.tex
+lastDocument=contenido.txt
 
 [document-settings,item:LICENSE.md]
 Bookmarks=
@@ -157,8 +157,8 @@ open=false
 order=-1
 
 [item:StyleInd.ist]
-open=false
-order=-1
+open=true
+order=8
 
 [item:bibliography.bib]
 open=false
@@ -181,8 +181,8 @@ open=true
 order=7
 
 [item:contenido.txt]
-open=false
-order=2
+open=true
+order=10
 
 [item:librofp.kilepr]
 open=false
@@ -193,8 +193,8 @@ open=false
 order=-1
 
 [item:main.idx]
-open=false
-order=-1
+open=true
+order=9
 
 [item:main.ind]
 open=false
@@ -225,8 +225,8 @@ TextFolding=[]
 ViMarks=.,436,57,[,436,57,],436,57
 
 [view-settings,view=0,item:StyleInd.ist]
-CursorColumn=0
-CursorLine=0
+CursorColumn=226
+CursorLine=3
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -241,12 +241,12 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:capitulo1.tex]
-CursorColumn=118
-CursorLine=144
+CursorColumn=27
+CursorLine=57
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,104,127,[,104,121,],104,127
+ViMarks=.,57,26,[,57,10,],57,26
 
 [view-settings,view=0,item:capitulo2.tex]
 CursorColumn=12
@@ -273,12 +273,12 @@ TextFolding=[]
 ViMarks=.,5,29,[,5,14,],5,29
 
 [view-settings,view=0,item:contenido.txt]
-CursorColumn=36
-CursorLine=10
+CursorColumn=96
+CursorLine=16
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,10,35,[,10,15,],10,35
+ViMarks=.,16,95,[,16,30,],16,95
 
 [view-settings,view=0,item:librofp.kilepr]
 CursorColumn=0
@@ -313,12 +313,12 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=65
+CursorLine=122
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,28,0,[,28,0,],28,0
+ViMarks=.,122,64,[,122,55,],122,64
 
 [view-settings,view=0,item:parte1.tex]
 CursorColumn=0
@@ -334,11 +334,11 @@ CursorLine=84
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,352,73,[,352,73,],352,73
+ViMarks=.,84,0,[,84,0,],84,0
 
 [view-settings,view=0,item:temporal.tex]
-CursorColumn=32
-CursorLine=40
+CursorColumn=52
+CursorLine=32
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]

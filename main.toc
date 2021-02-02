@@ -13,17 +13,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Organización del libro}{9}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}¿Dónde me he metido?}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {2}¿Dónde me he metido?}{13}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}¿Cómo funciona un ordenador?}{13}{chapter.3}%
+\contentsline {section}{\numberline {2.1}¿En qué consiste el desarrollo de aplicaciones?}{13}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}¿Qué es un algoritmo?}{15}{chapter.4}%
+\contentsline {section}{\numberline {2.2}¿En qué consiste programar?}{13}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografía}}{17}{chapter*.2}%
+\contentsline {section}{\numberline {2.3}¿Qué vamos a hacer en la asignatura de programación?}{13}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{17}{section*.3}%
+\contentsline {chapter}{\numberline {3}¿Cómo funciona un ordenador?}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{17}{section*.4}%
+\contentsline {chapter}{\numberline {4}¿Qué es un algoritmo?}{17}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{19}{section*.5}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografía}}{19}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{19}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{19}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{21}{section*.5}%
 \contentsfinish 
