@@ -13,59 +13,61 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Organización del libro}{9}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}¿Dónde me he metido?}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {2}¿Dónde me he metido?}{11}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}¿En qué consiste programar?}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.1}¿En qué consiste programar?}{11}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}¿Qué importancia tiene la programación?}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.2}¿Qué importancia tiene la programación?}{11}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Relación con otras materias}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Relación con otras materias}{11}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Ejercicios propuestos}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Ejercicios propuestos}{11}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}¿Cómo funciona un ordenador?}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {3}¿Cómo funciona un ordenador?}{13}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}¿Qué es un ordenador?}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.1}¿Qué es un ordenador?}{13}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Componentes de un ordenador}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Componentes de un ordenador}{13}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Estructura de un ordenador}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Estructura de un ordenador}{13}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Representación de la información}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Representación de la información}{13}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Ejercicios propuestos}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Ejercicios propuestos}{13}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}¿Qué es un algoritmo?}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {4}¿Qué es un algoritmo?}{15}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Concepto de algoritmo}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Concepto de algoritmo}{15}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Características de un algoritmo}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Características de un algoritmo}{15}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Resolución de problemas}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Resolución de problemas}{15}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Creación de algoritmos}{17}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Creación de algoritmos}{15}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Pseudocódigo}{17}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Pseudocódigo}{15}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Representación gráfica}{17}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Representación gráfica}{15}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Paradigmas de programación}{17}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Paradigmas de programación}{15}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Software y tipos de software}{17}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Lecturas recomendadas}{15}{section.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Lenguajes de programación}{17}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Software y tipos de software}{15}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Ejercicios propuestos}{17}{section.4.8}%
+\contentsline {section}{\numberline {4.8}Lenguajes de programación}{15}{section.4.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {II}{Programación en C/C++}}{19}{part.2}%
+\contentsline {section}{\numberline {4.9}Ejercicios propuestos}{15}{section.4.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {III}{POO en Java}}{21}{part.3}%
+\contentsline {part}{\@mypartnumtocformat {II}{Programación en C/C++}}{17}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografía}}{23}{chapter*.2}%
+\contentsline {part}{\@mypartnumtocformat {III}{POO en Java}}{19}{part.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{23}{section*.3}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliografía}}{21}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{23}{section*.4}%
+\contentsline {section}{Articles}{21}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{25}{section*.5}%
+\contentsline {section}{Books}{21}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{23}{section*.5}%
 \contentsfinish 
