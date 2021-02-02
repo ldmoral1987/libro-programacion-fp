@@ -42,7 +42,7 @@
 \thispagestyle{empty} % Se suprimen los encabezados y pies de página en la página de título
 \begin{tikzpicture}[remember picture,overlay]
 \node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background.pdf}};
-\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Programación en FP (DAW y DAM)\\[15pt] % Título del libro
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Programación en FP\\[15pt] % Título del libro
 {\Large Guía de supervivencia}\\[20pt] % Subtítulo
 {\huge Luis del Moral Martínez}}}; % Nombre del autor
 \end{tikzpicture}
@@ -115,14 +115,8 @@
  
 %------------------------------------------------
 
-\section*{Artículos}
-\addcontentsline{toc}{section}{Articles}
-\printbibliography[heading=bibempty,type=article]
-
-%------------------------------------------------
-
-\section*{Libros}
-\addcontentsline{toc}{section}{Books}
+\section*{Libros de referencia}
+\addcontentsline{toc}{section}{Libros de referencia}
 \printbibliography[heading=bibempty,type=book]
 
 %----------------------------------------------------------------------------------------

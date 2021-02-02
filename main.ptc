@@ -70,17 +70,13 @@
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\setlength \fboxsep {0pt}\noindent \colorbox {ocre!40}{\strut \parbox [c][.7cm]{\linewidth }{\Large \sffamily \centering Bibliografia\hskip 1em\relax \mbox {}}}}{21}{section*.3}%
+\contentsline {part}{\setlength \fboxsep {0pt}\noindent \colorbox {ocre!40}{\strut \parbox [c][.7cm]{\linewidth }{\Large \sffamily \centering Bibliografia e índice alfabético\hskip 1em\relax \mbox {}}}}{21}{section*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\leavevmode {\color {ocre}Bibliografía}}{23}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Articles}{23}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Books}{23}{section*.6}%
-\ttl@stoptoc {default@4}
-\ttl@starttoc {default@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\setlength \fboxsep {0pt}\noindent \colorbox {ocre!40}{\strut \parbox [c][.7cm]{\linewidth }{\Large \sffamily \centering Indice\hskip 1em\relax \mbox {}}}}{25}{section*.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{27}{section*.9}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Índice alfabético}}{25}{section*.7}%
 \contentsfinish 
