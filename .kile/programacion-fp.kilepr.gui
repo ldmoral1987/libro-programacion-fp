@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=true
 kile_livePreviewStatusUserSpecified=false
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=capitulo4.tex
+lastDocument=capitulo2.tex
 
 [document-settings,item:LICENSE.md]
 Bookmarks=
@@ -184,19 +184,19 @@ order=-1
 
 [item:capitulo1.tex]
 open=true
-order=1
+order=0
 
 [item:capitulo2.tex]
 open=true
-order=0
+order=1
 
 [item:capitulo3.tex]
 open=true
-order=6
+order=2
 
 [item:capitulo4.tex]
 open=true
-order=7
+order=3
 
 [item:contenido.txt]
 open=false
@@ -220,7 +220,7 @@ order=-1
 
 [item:main.tex]
 open=true
-order=4
+order=5
 
 [item:parte1.tex]
 open=false
@@ -231,16 +231,16 @@ open=false
 order=-1
 
 [item:parte3.tex]
-open=true
+open=false
 order=5
 
 [item:structure.tex]
 open=true
-order=2
+order=6
 
 [item:temporal.tex]
 open=true
-order=3
+order=4
 
 [view-settings,view=0,item:LICENSE.md]
 CursorColumn=64
@@ -267,20 +267,20 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:capitulo1.tex]
-CursorColumn=81
-CursorLine=47
+CursorColumn=53
+CursorLine=31
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=.,112,113,[,112,113,],112,113
 
 [view-settings,view=0,item:capitulo2.tex]
-CursorColumn=80
-CursorLine=10
+CursorColumn=0
+CursorLine=17
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,39,0,[,39,0,],39,0
+ViMarks=.,16,49,[,16,0,],-1,-1
 
 [view-settings,view=0,item:capitulo3.tex]
 CursorColumn=0
@@ -291,8 +291,8 @@ TextFolding=[]
 ViMarks=.,34,0,[,17,0,],-1,-1
 
 [view-settings,view=0,item:capitulo4.tex]
-CursorColumn=0
-CursorLine=46
+CursorColumn=14
+CursorLine=33
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -371,8 +371,8 @@ TextFolding=[]
 ViMarks=.,0,8,[,0,7,],0,8
 
 [view-settings,view=0,item:structure.tex]
-CursorColumn=20
-CursorLine=268
+CursorColumn=17
+CursorLine=509
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
