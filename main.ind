@@ -1,14 +1,20 @@
 \begin{theindex}
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{A}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Algoritmo, \hyperpage{12}
-
-  \indexspace
-
-  \item Git, \hyperpage{14}
-  \item GitHub, \hyperpage{14}
+  \item Algoritmo\dotfill \hyperpage{12}
 
   \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{G}}};\vspace*{0.2cm}\nopagebreak
 
-  \item IDE, \hyperpage{13}
+  \item Git\dotfill \hyperpage{14}
+  \item GitHub\dotfill \hyperpage{14}
+
+  \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{I}}};\vspace*{0.2cm}\nopagebreak
+
+  \item IDE\dotfill \hyperpage{13}
 
 \end{theindex}

@@ -30,6 +30,8 @@
 \usepackage{tikz} % Required for drawing custom shapes
 
 \usepackage[spanish]{babel} % Spanish language/hyphenation
+\renewcommand\spanishtablename{Tabla}
+\renewcommand{\listtablename}{Índice de tablas} 
 
 \usepackage{enumitem} % Customize lists
 \setlist{nolistsep} % Reduce spacing between bullet points and numbered lists
@@ -212,7 +214,6 @@
 \newcommand{\intff}[2]{\mathopen{[}#1\,;#2\mathclose{]}}
 \renewcommand{\qedsymbol}{$\blacksquare$}
 \newtheorem{notation}{Notation}[chapter]
-\renewcommand{\tablename}{Tabla}
 
 % Boxed/framed environments
 \newtheoremstyle{ocrenumbox}% Theorem style name
