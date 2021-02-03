@@ -22,6 +22,15 @@ Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
 
+[document-settings,item:auxiliar.txt]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+
 [document-settings,item:bibliography.bib]
 Bookmarks=
 Encoding=UTF-8
@@ -178,24 +187,28 @@ order=-1
 open=false
 order=8
 
+[item:auxiliar.txt]
+open=false
+order=-1
+
 [item:bibliography.bib]
 open=false
 order=-1
 
 [item:capitulo1.tex]
-open=true
+open=false
 order=0
 
 [item:capitulo2.tex]
 open=true
-order=1
+order=2
 
 [item:capitulo3.tex]
 open=true
-order=2
+order=1
 
 [item:capitulo4.tex]
-open=true
+open=false
 order=3
 
 [item:contenido.txt]
@@ -219,12 +232,12 @@ open=false
 order=-1
 
 [item:main.tex]
-open=true
+open=false
 order=5
 
 [item:parte1.tex]
-open=false
-order=4
+open=true
+order=0
 
 [item:parte2.tex]
 open=false
@@ -235,11 +248,11 @@ open=false
 order=5
 
 [item:structure.tex]
-open=true
+open=false
 order=6
 
 [item:temporal.tex]
-open=true
+open=false
 order=4
 
 [view-settings,view=0,item:LICENSE.md]
@@ -258,6 +271,14 @@ JumpList=
 TextFolding=[]
 ViMarks=
 
+[view-settings,view=0,item:auxiliar.txt]
+CursorColumn=80
+CursorLine=8
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,8,79,[,8,13,],8,79
+
 [view-settings,view=0,item:bibliography.bib]
 CursorColumn=18
 CursorLine=14
@@ -275,20 +296,20 @@ TextFolding=[]
 ViMarks=.,112,113,[,112,113,],112,113
 
 [view-settings,view=0,item:capitulo2.tex]
-CursorColumn=0
-CursorLine=17
+CursorColumn=113
+CursorLine=29
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,16,49,[,16,0,],-1,-1
+ViMarks=.,29,112,[,29,111,],29,112
 
 [view-settings,view=0,item:capitulo3.tex]
 CursorColumn=0
-CursorLine=35
+CursorLine=16
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,34,0,[,17,0,],-1,-1
+ViMarks=.,16,0,[,16,0,],16,0
 
 [view-settings,view=0,item:capitulo4.tex]
 CursorColumn=14
@@ -299,12 +320,12 @@ TextFolding=[]
 ViMarks=.,46,0,[,46,0,],46,0
 
 [view-settings,view=0,item:contenido.txt]
-CursorColumn=96
-CursorLine=16
+CursorColumn=61
+CursorLine=2
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,16,95,[,16,30,],16,95
+ViMarks=.,2,60,[,2,58,],2,60
 
 [view-settings,view=0,item:librofp.kilepr]
 CursorColumn=0

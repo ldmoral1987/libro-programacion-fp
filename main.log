@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.31)  3 FEB 2021 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.31)  3 FEB 2021 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -1128,23 +1128,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 511.
+(hyperref)                setting the option has no effect on input line 512.
 
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 511.
+(hyperref)                setting the option has no effect on input line 512.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 511.
+(hyperref)                setting the option has no effect on input line 512.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 511.
-Package hyperref Info: Option `breaklinks' set `true' on input line 511.
+Package hyperref Info: Option `colorlinks' set `false' on input line 512.
+Package hyperref Info: Option `breaklinks' set `true' on input line 512.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 511.
+(hyperref)                setting the option has no effect on input line 512.
 
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 511.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 512.
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
@@ -1408,13 +1408,47 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 6.
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
  [3
 
  <./Pictures/chapter_head_1.pdf>])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4] (./parte1.tex
+ [4]
+File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
+<use Pictures/chapter_head_1.pdf>
+Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 84.
+(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
+ (./main.lof
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [5
+
+] [6
+
+]
+File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
+<use Pictures/chapter_head_1.pdf>
+Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 86.
+(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
+ (./main.lot
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [7] [8
+
+]
+(./parte1.tex
 \c@ttl@toc@default=\count467
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 1.
@@ -1424,17 +1458,16 @@ LaTeX Info: Redefining \% on input line 2.
 )
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 1.
- [5
+ [9
 
-
-] [6] (./capitulo1.tex
+] [10] (./capitulo1.tex
 Cap\'{\i }tulo 1.
-<Pictures/chapter_head_2.pdf, id=207, 3581.38pt x 1790.69pt>
+<Pictures/chapter_head_2.pdf, id=231, 3581.38pt x 1790.69pt>
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-[7
+[11
 
  <./Pictures/chapter_head_2.pdf>]
 LaTeX Info: Redefining \. on input line 67.
@@ -1446,7 +1479,7 @@ Make it at least 14.73pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[8]
+[12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -1455,7 +1488,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
- [9]
+ [13]
 Package mdframed Info: mdframed works in twoside mode on input line 127.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1483,13 +1516,13 @@ Package mdframed Info: mdframed detected package amsthm
 (./capitulo2.tex
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- [10]
+ [14]
 Cap\'{\i }tulo 2.
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-[11
+[15
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 74.
@@ -1498,7 +1531,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 74.
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
- [12]
+ [16]
 Package mdframed Info: Not enough space on this page on input line 81.
 Package mdframed Info: mdframed works in twoside mode on input line 83.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1507,7 +1540,7 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./capitulo3.tex
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- [13] [14
+ [17] [18
 
 ]
 Cap\'{\i }tulo 3.
@@ -1515,25 +1548,28 @@ File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-Package mdframed Info: mdframed works in twoside mode on input line 20.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 20.
-Package mdframed Info: mdframed works in twoside mode on input line 24.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 24.
-Package mdframed Info: mdframed works in twoside mode on input line 28.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 28.
-Package mdframed Info: mdframed works in twoside mode on input line 32.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 32.
-) (./capitulo4.tex [15] [16
+<Pictures/estructura-ordenador1.png, id=298, 777.90625pt x 379.4175pt>
+File: Pictures/estructura-ordenador1.png Graphic file (type png)
+<use Pictures/estructura-ordenador1.png>
+Package pdftex.def Info: Pictures/estructura-ordenador1.png  used on input line
+ 13.
+(pdftex.def)             Requested size: 388.95216pt x 189.70828pt.
+<Pictures/estructura-ordenador2.png, id=299, 1058.95625pt x 398.48875pt>
+File: Pictures/estructura-ordenador2.png Graphic file (type png)
+<use Pictures/estructura-ordenador2.png>
+Package pdftex.def Info: Pictures/estructura-ordenador2.png  used on input line
+ 19.
+(pdftex.def)             Requested size: 423.575pt x 159.39267pt.
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./capitulo4.tex [19 <./Pictures/estructura-ordenador1.png>]
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [20 <./Pictures/estructura-ordenador2.png>]
 Cap\'{\i }tulo 4.
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
@@ -1555,87 +1591,74 @@ Package mdframed Info: mdframed works in twoside mode on input line 44.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 44.
-[17]
+[21
+
+]
 Package mdframed Info: Not enough space on this page on input line 46.
 )) (./parte2.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [18] (./main.ptc
+ [22] (./main.ptc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-) [19
+) [23
 
-] [20]) (./parte3.tex (./main.ptc
+] [24]) (./parte3.tex (./main.ptc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 )
-[21
+[25
 
-] [22]) [23
+] [26]) [27
 
-] [24]
+] [28]
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 113.
+Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 117.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
 
 
-Package biblatex Warning: Type 'book' not found on input line 120.
+Package biblatex Warning: Type 'book' not found on input line 124.
 
 
-LaTeX Warning: Empty bibliography on input line 120.
+LaTeX Warning: Empty bibliography on input line 124.
 
-[25
+[29
 
-] [26
+] [30
 
 ] (./main.ind
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 3--4
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 9--10
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 16--17
-[][] 
- []
-
-[27
+ [31
 
 
 ])
-\tf@ptc=\write7
-\openout7 = `main.ptc'.
+\tf@ptc=\write9
+\openout9 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
  (./main.aux
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 138.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31481 strings out of 481239
- 574347 string characters out of 5920377
- 1350752 words of memory out of 5000000
- 45872 multiletter control sequences out of 15000+600000
+ 31510 strings out of 481239
+ 574898 string characters out of 5920377
+ 1351005 words of memory out of 5000000
+ 45889 multiletter control sequences out of 15000+600000
  647186 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,64p,953b,2934s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,64p,957b,2934s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm
@@ -1644,10 +1667,10 @@ d8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 386591 bytes).
+Output written on main.pdf (31 pages, 454121 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
- 63273 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 63275 words of extra memory for PDF output out of 74296 (max. 10000000)
 
